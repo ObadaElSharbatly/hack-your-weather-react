@@ -1,0 +1,13 @@
+.chartpg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    margin-top: 20px;
+}
+
+.chart{
+    margin-top: 50px;
+    border: 1px solid orange;
+}

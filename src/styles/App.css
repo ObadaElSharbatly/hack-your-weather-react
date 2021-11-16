@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;1,300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.city-card {
+  position: relative;
+  border: 4px solid black;
+  width: 450px;
+  min-height: 260px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+.delete {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 10px;
+  top: 10px;
+  border-radius: 50%;
+  border: 4px solid black;
+  width: 30px;
+  height: 30px;
+  font-weight: 900;
+}
+
+.delete:hover {
+  color: red;
+  border-color: red;
+  cursor: pointer;
+}
+
+ul>li {
+  list-style: none;
+}
+
+.general-forecast, .forecast-details {
+  margin-top: 20px;
+}
+
+.err, .load {
+  color: red;
+  font-size: 14pt;
+  text-align: left;
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+.welcome-msg {
+  margin-top: 30vh;
+  text-shadow: black 0px 0px 10px;
+  color: white;
+  font-size: 2rem;
+  padding: 25px;
+}
