@@ -35,17 +35,13 @@ function ForecastChart() {
             setCityName(
                `${dailyForecast.city.name}, ${dailyForecast.city.country}`
             );
-            setTimeout(() => {
-               
-               console.log(chartData);
-            }, 1000);
          } catch (error) {
             console.error(error);
          }
       }
 
       fetchData();
-   }, []);
+   }, [cityId]);
 
   
 
